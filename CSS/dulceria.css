@@ -1,0 +1,182 @@
+root {
+    --primary-color: #000000; /* Negro */
+    --secondary-color: #ffffff; /* Blanco */
+    --accent-color: #d4af37; /* Dorado elegante */
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+:root {
+    --primary-color: #000000; /* Negro */
+    --secondary-color: #ffffff; /* Blanco */
+    --accent-color: #d4af37; /* Dorado elegante */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    --hover-color: #c59d32; /* Color dorado para hover */
+}
+
+.dulceria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Productos */
+.productos {
+    flex: 1;
+    max-width: 65%;
+    margin: 10px;
+}
+
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid var(--shadow-color);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+.producto img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.producto button {
+    margin-top: 10px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: var(--hover-color);
+}
+
+/* Resumen */
+.resumen {
+    flex: 1;
+    max-width: 30%;
+    margin: 10px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--shadow-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+/* Estilo de la lista */
+.lista-resumen {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-resumen li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.lista-resumen li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo del total */
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+/* Estilo del botón */
+.boton {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-2px);
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 767px) {
+    .resumen {
+        max-width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .total {
+        font-size: 16px;
+    }
+
+    .boton {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Reducción del tamaño de los elementos en la lista */
+    .lista-resumen li {
+        font-size: 14px;
+    }
+}
+
+/* Media queries para pantallas más grandes */
+@media (min-width: 768px) {
+    .resumen {
+        max-width: 45%;
+    }
+}
+
+@media (min-width: 992px) {
+    .resumen {
+        max-width: 30%;
+    }
+}

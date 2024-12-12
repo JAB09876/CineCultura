@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #000000; /* Negro */
+    --secondary-color: #ffffff; /* Blanco */
+    --accent-color: #d4af37; /* Dorado elegante */
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+.card {
+    border: 1px solid var(--primary-color);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: #c59d32;
+    border-color: #c59d32;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.carousel-caption h5, .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.card-body {
+    background-color: #f8f9fa; /* Un color más claro para el fondo de las tarjetas */
+}
+
+/* Leaflet Map */
+#map {
+    height: 400px;
+    width: 100%;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Noticias - Cine Cultura</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../CSS/noticia.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="/img/cp.jpg" alt="Cine Cultura Logo" style="height: 40px; margin-right: 10px;"> Cine Cultura
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="../index.html"><i class="bi bi-house-door"></i> Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="cartelera.html"><i class="bi bi-film"></i> Cartelera</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="dulceria.html"><i class="bi bi-ticket-perforated-fill"></i> Dulcería</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#"><i class="bi bi-newspaper"></i> Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contacto.html"><i class="bi bi-envelope"></i> Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Noticias -->
+      <div class="container my-5">
+         <h2 class="text-center mb-5">Últimas Noticias de Cine y Series</h2>
+         <div class="row">
+            <!-- Noticia 1 -->
+            <div class="col-lg-4 mb-4">
+               <div class="card shadow-sm border-red rounded">
+                  <img src="https://i.ytimg.com/vi/kMWREf455e4/maxresdefault.jpg" class="card-img-top" alt="Imagen Noticia">
+                  <div class="card-body">
+                     <h5 class="card-title">Estreno de la nueva película de acción John Wick 5</h5>
+                     <p class="card-text">La tan esperada película de acción ha llegado a las salas de cine. Con un elenco de estrellas y una trama emocionante, no te la puedes perder.</p>
+                     <p class="text-muted">Publicado el 12 de diciembre, 2024</p>
+                     <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalNoticia1">
+                     <i class="bi bi-newspaper"></i> Leer más
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <!-- Noticia 2 -->
+            <div class="col-lg-4 mb-4">
+               <div class="card shadow-sm border-red rounded">
+                  <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2614/KKLEVc2SIIgrFVjsZChZJk1d.jpg" class="card-img-top" alt="Imagen Noticia">
+                  <div class="card-body">
+                     <h5 class="card-title">Bloodborne a la plataforma</h5>
+                     <p class="card-text">Sumérgete en la nueva serie de terror de Bloodborne que promete mantenerte en vilo. Perfecta para los fanáticos del suspenso y los dioses lovecraftianos que te tendrá pegado a silla.</p>
+                     <p class="text-muted">Publicado el 10 de diciembre, 2024</p>
+                     <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalNoticia2">
+                     <i class="bi bi-play-circle"></i> Leer más
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <!-- Noticia 3 -->
+            <div class="col-lg-4 mb-4">
+               <div class="card shadow-sm border-red rounded">
+                  <img src="https://img.asmedia.epimg.net/resizer/v2/WG5GRK45H5BBJFFGWOUQRLJYGA.jpg?auth=2efde8e2c64cb2b3ff92b3fe6f8ead89c165910c115faf608111b452f7e3541f&width=1472&height=828&smart=true" class="card-img-top" alt="Imagen Noticia">
+                  <div class="card-body">
+                     <h5 class="card-title">Premios del Cine: Las nominaciones de este año</h5>
+                     <p class="card-text">Entérate de todas las películas y personalidades nominadas para los premios más importantes del cine. ¿Quiénes se llevarán la estatuilla este año?</p>
+                     <p class="text-muted">Publicado el 9 de diciembre, 2024</p>
+                     <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalNoticia3">
+                     <i class="bi bi-trophy"></i> Leer más
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modales -->
+      <!-- Modal Noticia 1 -->
+      <div class="modal fade" id="modalNoticia1" tabindex="-1" aria-labelledby="modalNoticia1Label" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalNoticia1Label">Estreno de la nueva película de acción John Wick 5</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+               </div>
+               <div class="modal-body">
+                  <p>La tan esperada película de acción ha llegado a las salas de cine. Con un elenco de estrellas y una trama emocionante, no te la puedes perder. La película continúa la historia del infame asesino John Wick, quien ahora se enfrenta a nuevas amenazas en su vida. Con escenas de acción espectaculares y giros inesperados, esta película es un imprescindible para los fanáticos del género.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal Noticia 2 -->
+      <div class="modal fade" id="modalNoticia2" tabindex="-1" aria-labelledby="modalNoticia2Label" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalNoticia2Label">Bloodborne a la plataforma</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+               </div>
+               <div class="modal-body">
+                  <p>Sumérgete en la nueva serie de terror de Bloodborne que promete mantenerte en vilo. Esta adaptación de la famosa franquicia de videojuegos presenta una atmósfera sombría y una trama envolvente. Perfecta para los fanáticos del suspenso y los dioses lovecraftianos, la serie promete mantenerte pegado a la pantalla con sus intensos giros de trama y personajes misteriosos.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal Noticia 3 -->
+      <div class="modal fade" id="modalNoticia3" tabindex="-1" aria-labelledby="modalNoticia3Label" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalNoticia3Label">Premios del Cine: Las nominaciones de este año</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+               </div>
+               <div class="modal-body">
+                  <p>Entérate de todas las películas y personalidades nominadas para los premios más importantes del cine. Este año, las nominaciones incluyen una variedad de géneros, desde dramas hasta películas de acción, y actores que han brillado por su talento. Los premios más esperados incluyen a los ganadores de Mejor Película, Mejor Director y Mejor Actor, entre otros. ¿Quién se llevará la estatuilla?</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer class="text-center">
+         <p>&copy; 2024 Cine Cultura. Todos los derechos reservados.</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

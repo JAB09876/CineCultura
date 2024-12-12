@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Seleccionar Asientos - Cine Cultura</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../CSS/sala.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+   </head>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="/img/cp.jpg" alt="Cine Cultura Logo" style="height: 40px; margin-right: 10px;"> Cine Cultura
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="../index.html"><i class="bi bi-house-door"></i> Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="cartelera.html"><i class="bi bi-film"></i> Cartelera</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="dulceria.html"><i class="bi bi-ticket-perforated-fill"></i> Dulcería</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="noticia.html"><i class="bi bi-newspaper"></i> Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contacto.html"><i class="bi bi-envelope"></i> Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Sala Section -->
+      <div class="container my-5">
+         <h2 class="text-center mb-4">Selecciona tus Asientos</h2>
+         <div class="screen">Pantalla</div>
+         <div class="seat-container" id="seatContainer">
+            <!-- Asientos serán generados dinámicamente -->
+         </div>
+         <div class="mt-4 text-center">
+            <button id="confirmButton" class="btn btn-primary btn-sel">Confirmar Selección</button>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer class="text-center">
+         <p>&copy; 2024 Cine Cultura. Todos los derechos reservados.</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="../JS/sala.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

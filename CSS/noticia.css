@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #000000; /* Negro */
+  --secondary-color: #ffffff; /* Blanco */
+  --accent-color: #d4af37; /* Dorado elegante */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--accent-color) !important;
+}
+
+.card {
+  border: 1px solid var(--primary-color);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: #c59d32;
+  border-color: #c59d32;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+  .card {
+    border: 1px solid var(--primary-color);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-title {
+    color: var(--primary-color);
+  }
+
+  .icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+
+  .bi {
+    color: #d4af37;
+    
+  }
+  
+  .btn-sm {
+    color: #d4af37;
+    border-color: #d4af37;
+  }
+
+  .btn-sm:hover {
+    border-color: #ffffff;
+    background-color: #d4af37;
+    .bi {
+      color: #ffffff;
+    }
+  }
