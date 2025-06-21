@@ -15,7 +15,7 @@ const peliculas = [
         horarios: ["12:00 PM", "6:00 PM", "8:00 PM"],
         duracion: "3h",
         sinopsis: "El doctor Mike Mentzer lidera una expedición al fondo del Atlántico, donde enfrentan horrores cósmicos inexplicables.",
-        trailer: "https://youtu.be/1GFUCpvNnrA?si=UuUapEgSjTGDj3ib"
+        trailer: "https://youtu.be/VYrMfHTducw?si=GPnK7FnbtYnj9F4-"
     },
     {
         titulo: "Berserk",
