@@ -8,7 +8,7 @@ const peliculas = [
     {
         titulo: "Bellow Still Waters",
         descripcion: "Diez años después del colapso de la plataforma Beira D, extrañas criaturas emergen del abismo.",
-        imagen: "https://assets-prd.ignimgs.com/2022/12/16/space-marine-2-1671194737602.jpg",
+        imagen: "https://github.com/JAB09876/CineCultura/blob/main/img/43895c57-f593-4c30-8460-268de4535e98.png?raw=true",
         horarios: ["12:00 PM", "6:00 PM", "8:00 PM"]
     },
     {
