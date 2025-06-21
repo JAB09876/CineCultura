@@ -129,6 +129,16 @@ const peliculadata = [
         trailer: "https://www.youtube.com/embed/EqHnrhIoEiE?si=yQFdcPp_G75KF0De"
     },
     {
+        titulo: "Bellow Still Waters",
+        descripcion: "Diez años después del colapso de la plataforma Beira D, extrañas criaturas emergen del abismo.",
+        imagen: "https://github.com/JAB09876/CineCultura/blob/main/img/43895c57-f593-4c30-8460-268de4535e98.png?raw=true",
+        horarios: ["12:00 PM", "6:00 PM", "8:00 PM"],
+        duracion: "3h",
+        sinopsis: "Diez años después del colapso de la plataforma Beira D, extrañas criaturas emergen del abismo. El doctor Mike Mentzer, un científico californiano, lidera una expedición hacia el misterioso fondo del Atlántico Norte. Lo que comienza como una investigación biológica se convierte en una pesadilla cósmica donde la ciencia no puede explicar lo que acecha en la oscuridad.
+Un viaje al abismo. Un encuentro con lo imposible.",
+        trailer: "https://youtu.be/1GFUCpvNnrA?si=UuUapEgSjTGDj3ib"
+    },
+    {
         titulo: "Berserk",
         descripcion: "La historia de Guts en un mundo oscuro y brutal.",
         imagen: "https://play-lh.googleusercontent.com/proxy/hO0GKwU5GYtJRoh7spC5FsBJYlON6WTfSp3kyKEA4SWIFcWdfLwCS0K1JEBJSDGplsfd8yrtX8NqiAQsqhXiSxD4lhgK5GNw0HbbqnlIdSBBU71Ns5f_Z4od=s3840-w3840-h2160",
