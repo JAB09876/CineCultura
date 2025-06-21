@@ -6,6 +6,12 @@ const peliculas = [
         horarios: ["12:00 PM", "3:00 PM", "6:00 PM"]
     },
     {
+        titulo: "Bellow Still Waters",
+        descripcion: "Diez años después del colapso de la plataforma Beira D, extrañas criaturas emergen del abismo.",
+        imagen: "https://assets-prd.ignimgs.com/2022/12/16/space-marine-2-1671194737602.jpg",
+        horarios: ["12:00 PM", "6:00 PM", "8:00 PM"]
+    },
+    {
         titulo: "Berserk",
         descripcion: "La historia de Guts en un mundo oscuro y brutal.",
         imagen: "https://play-lh.googleusercontent.com/proxy/hO0GKwU5GYtJRoh7spC5FsBJYlON6WTfSp3kyKEA4SWIFcWdfLwCS0K1JEBJSDGplsfd8yrtX8NqiAQsqhXiSxD4lhgK5GNw0HbbqnlIdSBBU71Ns5f_Z4od=s3840-w3840-h2160",
